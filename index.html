@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="lib/swiper-4.2.0.min.css">
+    <script src="lib/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<div id="con" class="con">
+    <img id="myImg" class="myImg" src="./img/img_loading.png"/>
+    <svg class="svg" id="svg" width="280" height="280" viewbox="0 0 280 280">
+        <circle cx="140" cy="140" r="70" stroke-width="3" stroke="#D1D3D7" fill="none"></circle>
+        <circle cx="140" cy="140" r="70" stroke-width="3" stroke="rgb(91, 69, 59)" fill="none" transform="matrix(0,-1,1,0,0,280)" stroke-dasharray="0 1069"></circle>
+    </svg>
+    <span class="percent" id="percent">0</span>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img id="img1" src="img/test1.png" width="100%" height="100%">
+                <div class="question">1+1=?</div>
+                <div class="ans1" tag="true"><span>2</span></div>
+                <div class="ans2" tag="false"><span>3</span></div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/test2.png" width="100%" height="100%">
+                <div class="question">2+2=?</div>
+                <div class="ans1" tag="false"><span>5</span></div>
+                <div class="ans2" tag="true"><span>4</span></div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/test3.png" width="100%" height="100%">
+                <div class="question">3+3=?</div>
+                <div class="ans1" tag="false"><span>25</span></div>
+                <div class="ans2" tag="true"><span>6</span></div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/test4.png" width="100%" height="100%">
+                <div class="question">4+1=?</div>
+                <div class="ans1" tag="false"><span>3</span></div>
+                <div class="ans2" tag="true"><span>5</span></div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/test5.png" width="100%" height="100%">
+                <div class="question">5-6=?</div>
+                <div class="ans1" data="end" tag="true"><span>-1</span></div>
+                <div class="ans2" data="end" tag="false"><span>6</span></div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="lib/swiper-4.2.0.min.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>
